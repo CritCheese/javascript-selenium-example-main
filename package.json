@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test_parallel": "mocha --timeout 100000 --parallel --spec ./test/*.js --reporter mochawesome",
-    "test": "mocha --timeout 100000 --reporter mochawesome --spec ./test/test_1.js"
+    "test": "mocha --timeout 100000 --reporter mochawesome --spec ./test/test_1.js",
+    "test_spec": "mocha --timeout 100000 --reporter mochawesome"
   },
   "keywords": [
     "mocha",
