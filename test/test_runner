@@ -1,0 +1,10 @@
+const Environment = require("../environment_config/environment");
+const { example, example1 } = require("./test");
+const environment = new Environment();
+
+async function test() {
+    // example();
+    // example1();
+    // environment.set_up();
+}
+test()
