@@ -33,6 +33,8 @@ PROJECT STRUCTURE
 	
 - test =>manage test with written testscript
 
+- locators => manage xpath of elements
+
 *****************************************************
 REPORT WITH MOCHAWESOME
 *****************************************************
@@ -53,6 +55,8 @@ continuous: npm --testEnv={testEnv} --testBrowser={testBrowser} run test
 
 concurrent: npm --testEnv={testEnv} --testBrowser={testBrowser} run test_parallel
 
+specific file: npm --testEnv={testEnv} --testBrowser={testBrowser} run test_spec --spec ./test/{file name}.js
+
 ------------
 Reference
 ------------
@@ -63,3 +67,5 @@ https://www.lambdatest.com/blog/mocha-javascript-tutorial-with-examples-for-sele
 https://medium.com/@osiolabs/read-write-json-files-with-node-js-92d03cc82824
 
 https://stackoverflow.com/questions/11580961/sending-command-line-arguments-to-npm-script
+
+https://www.selenium.dev/documentation/webdriver/actions_api/
